@@ -1,6 +1,7 @@
 version = 0.1
 [default.global.parameters]
 region = "us-east-1"
+
 [staging]
 [staging.deploy]
 [staging.deploy.parameters]
