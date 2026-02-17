@@ -5,8 +5,6 @@ region = "us-east-1"
 [staging.global.parameters]
 region = "us-east-1"
 
-[staging]
-[staging.deploy]
 [staging.deploy.parameters]
 stack_name = "staging-todo-list-aws"
 #s3_bucket = "aws-sam-cli-managed-staging-samclisourcebucket-upt09go84tay"
