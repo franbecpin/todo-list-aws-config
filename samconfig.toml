@@ -6,7 +6,7 @@ region = "us-east-1"
 region = "us-east-1"
 
 [staging.deploy.parameters]
-stack_name = "staging-todo-list-aws2"
+stack_name = "staging-todo-list-aws"
 #s3_bucket = "aws-sam-cli-managed-staging-samclisourcebucket-upt09go84tay"
 #s3_prefix = "staging-todo-list-aws"
 capabilities = "CAPABILITY_IAM"
@@ -14,3 +14,5 @@ parameter_overrides = "Stage=\"staging\""
 image_repositories = []
 resolve_s3 = true
 confirm_changeset = true
+api_global = true
+api_stage = "Prod"
