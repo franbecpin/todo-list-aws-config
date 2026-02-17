@@ -14,5 +14,3 @@ parameter_overrides = "Stage=\"staging\""
 image_repositories = []
 resolve_s3 = true
 confirm_changeset = true
-api_global = true
-api_stage = "Prod"
